@@ -1,0 +1,22 @@
+# Arquivos e diretórios específicos a serem ignorados no projeto React
+
+# Dependências e pacotes gerenciados pelo npm
+/node_modules
+npm-debug.log
+yarn-error.log
+yarn.lock
+
+# Arquivos de build e artefatos de compilação
+/build
+/dist
+
+# Arquivos de ambiente local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Outros arquivos gerados automaticamente
+*.log
+*.swp
+.DS_Store
